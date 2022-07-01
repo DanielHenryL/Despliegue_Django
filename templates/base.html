@@ -8,7 +8,10 @@
     <title>Blog</title>
 </head>
 <body>
-    
+
+    {% block messages %}
+        {% include 'messages.html' %}
+    {% endblock messages %}
     {% block content %}
         
     {% endblock content %}
